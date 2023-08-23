@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Oswald:wght@200;400&display=swap" rel="stylesheet">
 
     <style>
         h1 {
@@ -32,10 +35,28 @@
         .title {
             color: tomato;
         }
+        .navbar{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            list-style-type: none;
+            background-color:rgb(209, 205, 205);
+            font-weight: 400;
+           font-family: Cairo;
+
+                    }
     </style>
 </head>
 
 <body>
+    
+<ul class="navbar">
+    <li>projects</li>
+    <li>contant me</li>
+    <li>about me</li>
+</ul>
+<hr>
     <center>
         <h1>Fares Hassan </h1>
         <h2>Computer Science Student</h2>
@@ -68,6 +89,7 @@
         <li> Library management system</li>
         <li> RSA project</li>
     </ul>
+    
 
     <hr>
     <button onclick="printCv()">print cv</button>
